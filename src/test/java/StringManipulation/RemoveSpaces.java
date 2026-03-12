@@ -15,7 +15,7 @@ public class RemoveSpaces {
 	}
 	
 	@Test(description="collective string manipulation")
-	public void strManipulation() {
+	public void strManipulation() { 
 		
 		String originalStr = "  Hello World Java  ";
         System.out.println("Original String: \"" + originalStr + "\"");
