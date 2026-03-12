@@ -9,13 +9,18 @@ public class LargestSmallestSTRINGnumbers {
 
 		String str = " immmm mammm wring asss program in java programming language ";
 		String word[] = str.trim().split("\\s+");
+		System.out.println("word array "+word);
+		
+      //  System.out.println("new "+(new String(word))); 
+
+
 		String small = word[0];
 		for (int i = 0; i < word.length; i++) {
 			if (word[i].length() < small.length()) {
 				small = word[i];
 			}
 		}
-		System.out.println("smallest word is ---------- \n\t"+small);
+		System.out.println("smallest word is ---------- \n\t"+small); 
 	}
 
 	@Test(description = "largest word", priority=2)
