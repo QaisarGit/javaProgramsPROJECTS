@@ -1,6 +1,6 @@
 package OOPTSconcepts;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.Test; 
 
 abstract class Animal {
     // Abstract method (no body)

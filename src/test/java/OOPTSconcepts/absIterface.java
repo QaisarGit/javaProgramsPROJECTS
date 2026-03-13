@@ -2,7 +2,7 @@ package OOPTSconcepts;
 
 import org.testng.annotations.Test;
 
-public class Interface {
+public class absIterface {
 
 	
 	
