@@ -15,7 +15,7 @@ public class RemoveSpaces {
 	}
 	
 	@Test(description="collective string manipulation")
-	public void strManipulation() { 
+	public void strManipulation() {  
 		
 		String originalStr = "  Hello World Java  ";
         System.out.println("Original String: \"" + originalStr + "\"");
@@ -58,6 +58,12 @@ public class RemoveSpaces {
         int age = 30;
         String message = String.format("My name is %s and I'm %d years old.", name, age);
         System.out.println("Formatted Message: " + message);
+        
+        System.out.println("Formatted Message: " + message);
+
+        
+        System.out.println("Formatted Message: " + message);
+
     
 	}
 }
